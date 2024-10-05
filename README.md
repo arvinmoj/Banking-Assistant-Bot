@@ -41,5 +41,3 @@ The bot is implemented in `tg_bot.py` and includes:
 
 - **send_telegram_message**: Sends messages to users via the Telegram bot.
 - **handle_message**: Processes incoming messages and interacts with the external API.
-
-Relevant code snippet:
