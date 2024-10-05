@@ -1,0 +1,15 @@
+services:
+  banking-assistant-bot:
+    build: .
+    container_name: api_banking_assistant
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    networks:
+      - api_network
+
+networks:
+  api_network:
+    driver: bridge

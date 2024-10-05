@@ -1,0 +1,4 @@
+requests
+setuptools
+notion-client
+python-telegram-bot
